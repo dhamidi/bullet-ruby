@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+require 'dry-types'
+require 'dry-struct'
+require 'dry-initializer'
+require 'dry-container'
+require 'dry/inflector'
+
+require 'bullet/typenames'
+require 'bullet/command_dispatcher'
+require 'bullet/command'
+require 'bullet/query_dispatcher'
+require 'bullet/query'
+require 'bullet/effect'
+require 'bullet/effect_handler'
+require 'bullet/command_handler'
+require 'bullet/query_handler'
+require 'bullet/effect_executor'
+require 'bullet/system'
+require 'bullet/version'
